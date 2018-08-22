@@ -1,0 +1,23 @@
+.choice {
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .selected {
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .container {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
