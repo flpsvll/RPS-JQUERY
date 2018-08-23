@@ -1,8 +1,22 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+  line-height:1.5;
+  padding: 10px;
+  margin: 10px;
+  background-color: goldenrod
+}
+
+ul{
+  margin: 10;
+  padding: 10;
+}
+
 .choice {
     height: 200px;
     width: 200px;
     border-radius: 50px;
-    cursor: pointer;
+    flex-wrap: center  
   }
   
   .selected {
@@ -16,8 +30,8 @@
   }
   
   .container {
-    padding-top: 100px;
-    display: flex;
-    justify-content: space-around;
+    padding-top: 500px;
+    display: auto;
+    justify-content: flex-start;
   }
   
